@@ -1,11 +1,937 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>GitHub Page</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Pure Titanium Pan</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top__bar text-center">
+        <h4>Save <span>$100</span> on Spring sale – <span>Shop now!</span></h4>
+      </div>
+      <nav class="nav__bar">
+        <div class="hamburger__icon d-none">
+          <img
+            src="./images/hamburger.svg"
+            id="mobile__trigger"
+            alt="Open Menu"
+          />
+        </div>
+        <div class="nav-left">
+          <a href="#">Shop All</a>
+          <a href="#">About Us</a>
+          <a href="#">FAQ</a>
+        </div>
+
+        <div class="nav-logo">
+          <a href="./"
+            ><img src="./images/logo.svg" alt="Platefull" class="mw-100"
+          /></a>
+        </div>
+
+        <div class="nav-right">
+          <a href="#" class="d-sm-none">Contact Us</a>
+          <a href="#">
+            <img
+              src="./images/ShoppingBag.svg"
+              alt="ShoppingBag"
+              width="32px"
+              height="32px"
+            />
+          </a>
+        </div>
+        <div id="mobile__menu" class="mobile__menu">
+          <div class="mobile__logo_wrapper">
+            <img src="./images/logo.svg" class="mw-100" alt="Platefull" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--end of header-->
+    <main>
+      <section class="section__one">
+        <div class="container">
+          <div class="section__wrapper">
+            <div class="left__column">
+              <div class="swiper main-slider">
+                <div class="swiper-wrapper">
+                  <!-- Video Slide -->
+                  <div class="swiper-slide">
+                    <img
+                      src="./images/slider__one.png"
+                      class="mw-100"
+                      alt="slider1"
+                    />
+                  </div>
+                  <!-- Image Slides -->
+                  <div class="swiper-slide">
+                    <img
+                      src="./images/slider__one.png"
+                      class="img-fluid"
+                      alt="slider2"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./images/slider__one.png"
+                      class="img-fluid"
+                      alt="slider3"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./images/slider__one.png"
+                      class="img-fluid"
+                      alt="Image 3"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./images/slider__one.png"
+                      class="img-fluid"
+                      alt="Image 4"
+                    />
+                  </div>
+                </div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+              </div>
+
+              <!-- Thumbnail Slider -->
+              <div class="swiper thumb-slider">
+                <div class="swiper-wrapper">
+                  <!-- Video Thumb -->
+                  <div class="swiper-slide thumb">
+                    <img src="./images/slider__one.png" alt="Video Thumb" />
+                  </div>
+                  <!-- Image Thumbs -->
+                  <div class="swiper-slide thumb">
+                    <img src="../images/slider__one.png" alt="Thumb 1" />
+                  </div>
+                  <div class="swiper-slide thumb">
+                    <img src="./images/slider__one.png" alt="Thumb 2" />
+                  </div>
+                  <div class="swiper-slide thumb">
+                    <img src="./images/slider__one.png" alt="Thumb 3" />
+                  </div>
+                  <div class="swiper-slide thumb">
+                    <img src="./images/slider__one.png" alt="Thumb 4" />
+                  </div>
+                </div>
+              </div>
+              <div class="review__box">
+                <img
+                  src="./images/review__image.png"
+                  alt="user review"
+                  class="mw-100"
+                />
+              </div>
+            </div>
+            <div class="right__column">
+              <div class="rating__div">
+                <span>
+                  <img
+                    src="./images/rating.png"
+                    class="mw-100"
+                    alt="5 star rated"
+                  />
+                </span>
+                <span
+                  ><span style="font-weight: 500">4.8/5</span> | 65,250+
+                  reviews</span
+                >
+              </div>
+              <div class="heading__div">
+                <h2>Pure Titanium Pan™</h2>
+              </div>
+              <div class="feature__div">
+                <ul class="features-list">
+                  <li>Antibacterial Surface</li>
+                  <li>Zero Toxic Coatings</li>
+                  <li>Naturally Non-Stick</li>
+                  <li>Lasts a Lifetime</li>
+                </ul>
+              </div>
+              <div class="sale__div">
+                <div class="timer__box">
+                  <h4>
+                    Order in <span id="minutes">10</span>:<span id="seconds"
+                      >00</span
+                    >
+                    To Claim Bundle Savings
+                  </h4>
+                </div>
+                <div class="save__div">
+                  <img
+                    src="./images/sale__image.png"
+                    class="mw-100"
+                    alt="sale"
+                  />
+                  <span class="discount__badge"
+                    >save <span id="save__amount">$230</span></span
+                  >
+                </div>
+              </div>
+              <div class="last__chance">
+                <img
+                  src="./images/error_triangle.png"
+                  alt="error"
+                  class="mw-100"
+                />
+                <p>LAST CHANCE FOR BUNDLE SAVINGS</p>
+                <img
+                  src="./images/error_triangle.png"
+                  alt="error"
+                  class="mw-100"
+                />
+              </div>
+              <div class="button__wrapper">
+                <a href="#">claim $230 bundle savings</a>
+              </div>
+              <div class="shipping__box">
+                <img src="./images/shipping_icon.png" alt="" />
+                <p>Free 2-5 Day US Shipping. Hassle-Free Returns.</p>
+              </div>
+              <div class="faq-box">
+                <div class="faq-item">
+                  <button class="accordion">
+                    Description
+                    <span class="icon"></span>
+                  </button>
+                  <div class="panel">
+                    <p>
+                      Finally, a pan that puts your family's health first
+                      without sacrificing performance. The Pure Titanium Pan
+                      delivers restaurant-quality results with zero toxic
+                      chemicals.
+                    </p>
+                    <p>
+                      Sear steaks to perfection, fry eggs without sticking, or
+                      sauté vegetables evenly—all with medical-grade titanium
+                      that's completely non-reactive and safe.
+                    </p>
+                    <p>
+                      Naturally non-stick, ultra-lightweight, and built to last
+                      a lifetime. No more replacing toxic pans every year—this
+                      is the last pan you'll ever need.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="accordion">
+                    How to use
+                    <span class="icon"></span>
+                  </button>
+                  <div class="panel">
+                    <div>
+                      <h4>First Use</h4>
+                      <p>
+                        Heat pan on medium-low, add a teaspoon of oil, and
+                        spread evenly for 2 minutes.
+                      </p>
+                    </div>
+                    <div>
+                      <h4>Cooking</h4>
+                      <p>
+                        Titanium heats 3x faster than regular pans. Start with
+                        lower heat - medium on titanium works like high heat on
+                        other pans.
+                      </p>
+                    </div>
+                    <div>
+                      <h4>Cleaning</h4>
+                      <p>
+                        Let pan soak in soapy water, then wash clean. Dishwasher
+                        safe.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="accordion">
+                    Shipping & Returns
+                    <span class="icon"></span>
+                  </button>
+                  <div class="panel">
+                    <div>
+                      <h4>Shipping</h4>
+                      <p>
+                        We ship from within the USA. Orders are dispatched
+                        within 24 hours and arrive in 2-5 business days via free
+                        shipping.
+                      </p>
+                      <h4>Returns</h4>
+                      <p>
+                        We offer a 90-day money-back guarantee. Return your pan
+                        within 90 days for any reason - no questions asked, no
+                        return fees.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="accordion">
+                    Specifications
+                    <span class="icon"></span>
+                  </button>
+                  <div class="panel">
+                    <div>
+                      <h4>Size & Capacity</h4>
+                      <p>
+                        Diameter: 11.5" | Depth: 3" | Weight: 2.4 lbs **Includes
+                        free stainless steel lid
+                      </p>
+                      <h4>Construction</h4>
+                      <p>
+                        Premium stainless steel base with pure titanium cooking
+                        surface Handcrafted micro-texture pattern for natural
+                        non-stick performance
+                      </p>
+                      <h4>Compatibility</h4>
+
+                      <ul>
+                        <li>All cooktops, including induction</li>
+                        <li>Oven safe to 750°F</li>
+                        <li>Dishwasher safe</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of section one-->
+      <section class="section__two">
+        <div class="info-section-container">
+          <!-- Wrapper for the scrolling track, hides content outside its bounds -->
+          <div class="scroll-track-wrapper">
+            <!-- Inner track that contains the duplicated content and is animated -->
+            <div class="scroll-track-inner">
+              <!-- First set of information items -->
+              <div class="info-group">
+                <span>ZERO TOXIC COATINGS</span>
+                <div class="separator"></div>
+                <span>NATURAL NON-STICK</span>
+                <div class="separator"></div>
+                <span>LASTS A LIFETIME</span>
+                <div class="separator"></div>
+                <span>MEDICAL GRADE TITANIUM</span>
+                <div class="separator"></div>
+              </div>
+              <!-- Second set of information items (duplicate for seamless scroll) -->
+              <div class="info-group">
+                <span>ZERO TOXIC COATINGS</span>
+                <div class="separator"></div>
+                <span>NATURAL NON-STICK</span>
+                <div class="separator"></div>
+                <span>LASTS A LIFETIME</span>
+                <div class="separator"></div>
+                <span>MEDICAL GRADE TITANIUM</span>
+                <div class="separator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toxic__div">
+          <div class="container">
+            <div class="toxic__div__heading text-center">
+              <span>Toxic Cookware Exposed</span>
+              <h2>The Hidden Dangers Lurking In Your Kitchen</h2>
+              <h5>
+                Most cookware puts your family's health at risk. Here's what
+                you're really cooking on.
+              </h5>
+            </div>
+            <div class="card-grid mt-40">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./images/card_image_one.png"
+                    class="mw-100"
+                    alt="Non-Stick Pan"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Non-Stick (PTFE)</h3>
+                  <ul>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Coating flakes within 6–12 months</span>
+                    </li>
+                    <li>
+                      <img src="./images/Close-Square.png" alt="" /><span
+                        >Releases toxic fumes when overheated</span
+                      >
+                    </li>
+                    <li>
+                      <img src="./images/Close-Square.png" alt="" /><span
+                        >Forever chemicals accumulate in body</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./images/card_image_two.png"
+                    class="mw-100"
+                    alt="Ceramic Pan"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Ceramic Pan</h3>
+                  <ul>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Coating chips or wears off quickly</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Contains toxic heavy metals</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Performance degrades within months</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./images/card_image_two.png"
+                    class="mw-100"
+                    alt="Stainless Steel"
+                  />
+                </div>
+
+                <div class="card-content">
+                  <h3>Stainless Steel</h3>
+                  <ul>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Food sticks constantly, needs excess oil</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Leaches nickel and chromium</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Heavy and difficult to maneuver</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="./images/card_image_four.png"
+                    class="mw-100"
+                    alt="Cast Iron Pan"
+                  />
+                </div>
+
+                <div class="card-content">
+                  <h3>Cast Iron Pan</h3>
+                  <ul>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Weighs 3x more than titanium</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Rusts easily without constant care</span>
+                    </li>
+                    <li>
+                      <img
+                        src="./images/Close-Square.png"
+                        alt="Close-Square"
+                      /><span>Acidic foods can react, leaching</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of section two-->
+      <section class="section__three">
+        <div class="container">
+          <div class="section-wrapper">
+            <div class="text-content">
+              <h2>Enter Plateful's Pure Titanium Pan™</h2>
+              <ul>
+                <li>
+                  <img src="./images/tick_mark.png" alt="" />Zero toxic
+                  chemicals or coatings
+                </li>
+                <li>
+                  <img src="./images/tick_mark.png" alt="" />Naturally non-stick
+                  surface lasts forever
+                </li>
+                <li>
+                  <img src="./images/tick_mark.png" alt="" />Lightweight yet
+                  300% stronger than steel
+                </li>
+              </ul>
+            </div>
+            <div class="video-box">
+              <video poster="./images/section_three_thumb.png">
+                <!-- Actual video can be added later -->
+                <source src="video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of section three-->
+      <section class="section__four">
+        <div class="container">
+          <div class="comparison-table">
+            <div class="cell__header">
+              <img src="./images/plateful_titanium.png" alt="" />
+            </div>
+            <div class="cell__header">Non-Stick</div>
+            <div class="cell__header">Stainless Steel</div>
+            <div class="cell__header">Ceramic</div>
+            <div class="cell__header">Cast Iron</div>
+            <div class="cell cell_one">Antibacterial</div>
+            <div class="cell cell_one bg-white">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_two">Chemical-Free</div>
+            <div class="cell cell_two bg-white">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_two">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_two">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_two">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_two">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_three justify-start">Nutrient Retention</div>
+            <div class="cell cell_three bg-white text-green">Excellent</div>
+            <div class="cell cell_three">Good</div>
+            <div class="cell cell_three">Good</div>
+            <div class="cell cell_three">Good</div>
+            <div class="cell cell_three">Good</div>
+            <div class="cell cell_one">Non-Stick</div>
+            <div class="cell cell_one bg-white">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one justify-start">Scratch Resistant</div>
+            <div class="cell cell_one bg-white">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one justify-start">Dishwasher Safe</div>
+            <div class="cell cell_one bg-white">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/tick_mark.png" alt="" />
+            </div>
+            <div class="cell cell_one">
+              <img src="./images/Close-Square_table.png" alt="" />
+            </div>
+            <div class="cell cell_three justify-start">Heat Tolerance</div>
+            <div class="cell cell_three bg-white text-green">750°</div>
+            <div class="cell cell_three">400°</div>
+            <div class="cell cell_three">600°</div>
+            <div class="cell cell_three">500°</div>
+            <div class="cell cell_three">700°</div>
+            <div class="cell cell_three justify-start">Lifespan</div>
+            <div class="cell cell_three bg-white text-green">Lifetime</div>
+            <div class="cell cell_three">1-2 years</div>
+            <div class="cell cell_three">10+ years</div>
+            <div class="cell cell_three">2-3 years</div>
+            <div class="cell cell_three">20+ years</div>
+            <div class="cell cell_three justify-start">Maintenance</div>
+            <div class="cell cell_three bg-white text-green">None</div>
+            <div class="cell cell_three">Replace yearly</div>
+            <div class="cell cell_three">None</div>
+            <div class="cell cell_three">Replace every 2-</div>
+            <div class="cell cell_three">Seasoning required</div>
+          </div>
+        </div>
+      </section>
+      <!--end of section four-->
+      <section class="section__five">
+        <div class="container">
+          <div class="section__heading text-center">
+            <span>Backed by Science</span>
+            <h2>Why Scientists Choose Titanium</h2>
+            <h5>
+              Titanium is the same material trusted for surgical implants, bone
+              plates, and dental tools.
+            </h5>
+          </div>
+          <div class="section__content">
+            <div class="text__content">
+              <ul>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Zero toxic
+                  chemicals or coatings
+                </li>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Naturally
+                  non-stick surface lasts forever
+                </li>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Lightweight yet
+                  300% stronger than steel
+                </li>
+              </ul>
+            </div>
+            <div class="image__content">
+              <img src="./images/whychoose.png" alt="whychoose titanium" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section__six">
+        <div class="container">
+          <div class="text-center">
+            <div class="rating__div">
+              <img
+                src="./images/rating.png"
+                class="mw-100"
+                alt="5 star rated"
+              />
+              <p>Loved in 10,000+ Kitchens</p>
+            </div>
+            <h2>Why They Made the Switch</h2>
+          </div>
+        </div>
+        <div class="video-box">
+          <button class="left-arrow">
+            <img src="./images/left__arrow.svg" alt="" />
+          </button>
+          <div class="swiper video-slider">
+            <div class="swiper-wrapper video-wrapper">
+              <div class="swiper-slide video">
+                <video
+                  src=""
+                  muted
+                  poster="./images/video_thumb_one.png"
+                ></video>
+                <div class="custom__btn">
+                  <img src="./images/play-circle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide video">
+                <video
+                  src=""
+                  muted
+                  poster="./images/video_thumb_one.png"
+                ></video>
+                <div class="custom__btn">
+                  <img src="./images/play-circle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide video">
+                <video
+                  src=""
+                  muted
+                  poster="./images/video_thumb_three.png"
+                ></video>
+                <div class="custom__btn">
+                  <img src="./images/play-circle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide video">
+                <video
+                  src=""
+                  muted
+                  poster="./images/video_thumb_four.png"
+                ></video>
+                <div class="custom__btn">
+                  <img src="./images/play-circle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide video">
+                <video
+                  src=""
+                  muted
+                  poster="./images/video_thumb_five.png"
+                ></video>
+                <div class="custom__btn">
+                  <img src="./images/play-circle.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="right-arrow">
+            <img src="./images/right__arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="section__seven">
+        <div class="container">
+          <div class="section__heading text-center">
+            <h2>Built to Handle Anything</h2>
+          </div>
+          <div class="section__content gap-24">
+            <div class="left__content">
+              <img src="./images/section_seven_image.png" alt="" />
+            </div>
+            <div class="right__content">
+              <ul>
+                <li>
+                  <img src="./images/dishwash.svg" alt="" />Dishwasher safe
+                </li>
+                <li>
+                  <img src="./images/temarature.svg" alt="" />Safe up to 750°F
+                </li>
+                <li>
+                  <img src="./images/metal.svg" alt="" />Metal utensil safe
+                </li>
+                <li>
+                  <img src="./images/pfas.svg" alt="" />Free from PFAS & PTFE
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__eight">
+        <div class="container">
+          <div class="section__heading text-center">
+            <span>How Plateful compares</span>
+            <h2>Who Needs Titanium Cookware the Most?</h2>
+            <h5>
+              If you care about what goes into your food — it’s time to rethink
+              what you cook it on.
+            </h5>
+          </div>
+          <div class="cooking-faq">
+            <div class="faq-box">
+              <div class="faq-item">
+                <button class="accordion">
+                  <div class="dflex">
+                    <img src="./images/homecook.svg" alt="" />
+                    <p>Home Cooks</p>
+                  </div>
+                  <span class="icon faq-icon"></span>
+                </button>
+                <div class="panel">
+                  <div class="left-content">
+                    <img src="./images/faqcook_imageone.png" alt="" />
+                  </div>
+                  <div class="right-content">
+                    <img src="./images/stars.svg" alt="5star rating" />
+                    <p>
+                      “This pan makes everyday cooking a breeze - easy cleanup
+                      and zero hassle. Love having the confidence that no
+                      harmful chemicals are getting into our food."
+                    </p>
+                    <p class="dflex gap-4">
+                      <img src="./images/BadgeCheck.png" alt="safetybadge" />
+                      <span>Ava R., Portland</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="accordion cookaccordion">
+                  <div class="dflex">
+                    <img src="./images/healthpan.svg" alt="" />
+                    <p>Health-Conscious Families</p>
+                  </div>
+                  <span class="icon"></span>
+                </button>
+                <div class="panel">
+                  <div class="left-content">
+                    <img src="./images/faqcook_imageone.png" alt="" />
+                  </div>
+                  <div class="right-content">
+                    <img src="./images/stars.svg" alt="5star rating" />
+                    <p>
+                      “This pan makes everyday cooking a breeze - easy cleanup
+                      and zero hassle. Love having the confidence that no
+                      harmful chemicals are getting into our food."
+                    </p>
+                    <p class="dflex gap-4">
+                      <img src="./images/BadgeCheck.png" alt="safetybadge" />
+                      <span>Ava R., Portland</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="accordion cookaccordion">
+                  <div class="dflex">
+                    <img src="./images/health_optimize.svg" alt="" />
+                    <p>Health Optimizers</p>
+                  </div>
+                  <span class="icon"></span>
+                </button>
+                <div class="panel">
+                  <div class="left-content">
+                    <img src="./images/faqcook_imageone.png" alt="" />
+                  </div>
+                  <div class="right-content">
+                    <img src="./images/stars.svg" alt="5star rating" />
+                    <p>
+                      “This pan makes everyday cooking a breeze - easy cleanup
+                      and zero hassle. Love having the confidence that no
+                      harmful chemicals are getting into our food."
+                    </p>
+                    <p class="dflex gap-4">
+                      <img src="./images/BadgeCheck.png" alt="safetybadge" />
+                      <span>Ava R., Portland</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="accordion cookaccordion">
+                  <div class="dflex">
+                    <img src="./images/replacing_pan.svg" alt="" />
+                    <p>People Tired of Replacing Pans</p>
+                  </div>
+                  <span class="icon"></span>
+                </button>
+                <div class="panel">
+                  <div class="left-content">
+                    <img src="./images/faqcook_imageone.png" alt="" />
+                  </div>
+                  <div class="right-content">
+                    <img src="./images/stars.svg" alt="5star rating" />
+                    <p>
+                      “This pan makes everyday cooking a breeze - easy cleanup
+                      and zero hassle. Love having the confidence that no
+                      harmful chemicals are getting into our food."
+                    </p>
+                    <p class="dflex gap-4">
+                      <img src="./images/BadgeCheck.png" alt="safetybadge" />
+                      <span>Ava R., Portland</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__nine">
+        <div class="container">
+          <div class="section__heading text-center">
+            <span>No PFAS. No PFOA. No PTFE.</span>
+            <h2>Free From Forever Chemicals</h2>
+          </div>
+          <div class="section__content">
+            <div class="image__content">
+              <img src="./images/whychoose.png" alt="whychoose titanium" />
+            </div>
+            <div class="text__content">
+              <ul>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Zero toxic
+                  chemicals or coatings
+                </li>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Naturally
+                  non-stick surface lasts forever
+                </li>
+                <li>
+                  <img src="./images/Shield-Done.png" alt="" />Lightweight yet
+                  300% stronger than steel
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--end of main-->
+    <footer></footer>
+    <!--end of footer-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js?v=2.2"></script>
+  </body>
 </html>
